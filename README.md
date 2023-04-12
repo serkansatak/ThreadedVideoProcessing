@@ -18,12 +18,13 @@ OpenCV >= 4.7
 You can directly import the VideoProcessor object and assign an operator as if you are assigning a property.
 If you don't know what a property is just follow the pattern.
 
-```
+```python
 # Import Class and OpenCV
 import cv2
 from VideoThreaded import VideoProcessor
 
 # Create VideoProcessor object
+# Set the input and output paths before you go.
 processor = VideoProcessor(${INPUT_FILE_PATH}, ${OUTPUT_FILE_PATH})
 
 # Define a function to use as operator
