@@ -29,6 +29,7 @@ processor = VideoProcessor(${INPUT_FILE_PATH}, ${OUTPUT_FILE_PATH})
 
 # Define a function to use as operator
 # Function should take "frame" and "t" as first two arguments rest is up to your operation
+# Function should return your updated frame and t
 def dummy_operation(frame, t, blurRate):
     return cv2.medianBlur(frame, blurRate), t
 
