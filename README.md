@@ -34,7 +34,8 @@ def dummy_operation(frame, t, blurRate):
 
 # While assigning the operator, one should follow the pattern below.
 # Arguments except frame and t should be sent as keyword arguments.
-processor.operator = {'func': operation, 'kwargs': {'blurRate': 19}}
+# Send the function without () at the end. We are sending function as an object
+processor.operator = {'func': dummy_operation, 'kwargs': {'blurRate': 19}}
 ```
 
 ## Authors
