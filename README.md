@@ -1,4 +1,4 @@
-# ThreadedVideoProcessing
+# Threaded Video Processing
 
 Code in this repository is an object oriented approach using official OpenCV [Example](https://github.com/opencv/opencv/blob/master/samples/python/video_threaded.py)
 
